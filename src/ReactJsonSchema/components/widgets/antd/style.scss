@@ -1,0 +1,67 @@
+.antd-display-widget {
+	font-size: 14px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+
+
+
+
+form .ant-input-number{
+	width: 100%;
+}
+
+
+.selectComponent {
+	
+	.selectComponent-btn {
+		// margin-top: 10px;
+		// float: right;
+		position: absolute;
+		top: 2px;
+		right: -94px;
+	}
+	
+	.form {
+		height: 300px;
+		overflow: 'auto';
+
+		.selectComponent-sub-btn {
+			margin-left: 20px;
+			padding-bottom: 20px;
+		}
+		
+	}
+}
+
+.checkbox {
+	margin-bottom: 10px;
+	word-break: break-all;
+}
+
+.form-item {
+	width: 400px;
+	//padding-left: 20px;
+
+	input {
+		text-overflow: ellipsis
+	}
+}
+
+.custom-item {
+	display: flex;
+	background-color: yellow;
+	color: red;
+
+	.item-label {
+		width: 20%;
+	}
+	.item-label::after {
+		content: '*'
+	}
+	
+	.item-wiget {
+		width: 70%;
+	}
+
+}

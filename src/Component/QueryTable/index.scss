@@ -1,0 +1,16 @@
+.query-table-custom-fields {
+    .ant-modal-body .form>.form-group {
+        height: 440px;
+        overflow-y: scroll;
+    }
+}
+
+.query-table {
+    .ant-tabs-bar {
+        margin-bottom: 0;
+    }
+    .table-query-body {
+        padding: 20px;
+        background: white;
+    }
+}
